@@ -37,7 +37,7 @@
   left: 0;
   right: 0;
   top: 50%;
-  transform: translateY(-80%);
+  transform: translateY(-94%);
 }
 .fb
 {
@@ -49,5 +49,5 @@
   min-height:20em;
   float:left;
   overflow:hidden;
-  transform: translateY(20%);
+  transform: translateY(10%);
 }
