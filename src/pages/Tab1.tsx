@@ -1,22 +1,18 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonImg, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import Tool from '../components/Toolbar';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <Tool name = "Roca Firme"/>
         </IonToolbar>
-      </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-      <img src="https://scontent.fhex4-2.fna.fbcdn.net/v/t1.6435-9/61539381_803001863417277_2820942461407330304_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=28QefR_NwzkAX-hF0J7&_nc_ht=scontent.fhex4-2.fna&oh=227ec47e4f3b268bc207554c3326c099&oe=615E185B" width="320"/>
+        <div className  = "img">
+          <img src="https://scontent.fhex4-2.fna.fbcdn.net/v/t1.15752-9/260669052_197768389215074_6875169155440593991_n.png?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=MT6yQPzCUe8AX-zU58P&tn=6yQkdtKp7fvkPiYC&_nc_ht=scontent.fhex4-2.fna&oh=817a70e00cb4c0df729eda453294b4d8&oe=61C49720"/>
+        </div>
         <ExploreContainer name="Tab 1 page" />
       </IonContent>
     </IonPage>

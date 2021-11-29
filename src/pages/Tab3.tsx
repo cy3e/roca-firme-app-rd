@@ -1,22 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonInfiniteScrollContent } from '@ionic/react';
 import ExploreContaineryt from '../components/ExploreContaineryt';
 import ExploreContainerfb from '../components/ExploreContainerfb';
+import Tool from '../components/Toolbar';
 import './Tab3.css';
 
 const Tab3: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <Tool name = ""/>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <div className="contenido">
         <ExploreContaineryt/>
         <ExploreContainerfb/>

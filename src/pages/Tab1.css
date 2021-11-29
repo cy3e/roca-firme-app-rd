@@ -1,0 +1,15 @@
+
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+}
+
+.img
+{
+    text-align: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    transform: translateY(0%);
+}

@@ -1,0 +1,26 @@
+b {
+  font-size: 10px;
+  line-height: 22px;
+  color: #3a6186;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 0;
+}
+
+
+ion-title
+{
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+.button 
+{
+  width: 55px;
+  height: 36px;
+  transform: translateX(-4%);
+  color: transparent;
+}

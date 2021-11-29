@@ -36,8 +36,8 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-80%);
+  top: 0%;
+  transform: translateY(120%);
 }
 .fb
 {
@@ -45,8 +45,8 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 50%;
-  min-height:20em;
+  top: 0%;
+  min-height:10em;
   float:left;
   overflow:hidden;
   transform: translateY(20%);
