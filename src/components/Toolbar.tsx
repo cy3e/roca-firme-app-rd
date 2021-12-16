@@ -9,10 +9,12 @@ const Tool: React.FC<ContainerProps> = ({ name }) => {
   return (
     <IonTitle>
       <IonButton className = "button">
-
+        <p>
+          {name}
+        </p>
       </IonButton>
-      {name}
-    </IonTitle>
+      
+      </IonTitle>
   );
 };
 
